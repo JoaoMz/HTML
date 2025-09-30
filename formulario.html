@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang = "pt-br">
+    <head>
+        <meta= charset = "UTF-8">
+        <title>Formulãrios</title>
+    </head>
+
+    <body>
+        
+
+        <form name = "cadastro" action="processa.php" method="post" accept-charset="utf-8">
+
+            <!--Input-->
+
+            <h2>Formulário Input - Caixas Simples</h2>
+            <div>
+                Nome: <input type="text" name="nome" size="30" placeholder="Digite seu Nome">
+                <br>
+                Sobrenome: <input type="text" name="sobrenome" size="30" placeholder="Digite seu Sobrenome">
+                <br>
+                Endereço: <input type="text" name="endereço" size="60" placeholder="Digite seu Endereço">
+                <br>
+                Senha: <input type="password" name="senha" size="30" placeholder="Digite sua Senha" maxlength="10" required>
+                <br>
+                <input type="submit" value="Enviar">
+            </div>
+            <br>
+            <hr>
+            <div>
+                <h2>Formulário de Radios</h2>
+
+                <p>Sexo:</p>
+                <input type="radio" name="sexo" value="M"> Masculino <br>
+                <input type="radio" name="sexo" value="F"> Feminino <br>
+                <input type="radio" name="sexo" value="n"> Não Declarado <br>
+            </div>
+    </body>
+
+</form>
+
+</html>
