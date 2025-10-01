@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Audio e Video</title>
+    <style>
+        #imagem {
+            width: 800px;
+            height: 500px;
+            border: 5px solid #710707;
+            border-radius: 10px;
+            display: block;
+            margin: auto;
+            
+        }
+
+        #video {
+            width: 800px;
+            height: 500px;
+            border: 5px solid #710707;
+            border-radius: 10px;
+            display: block;
+            margin: auto;
+            text-align: center;
+        }
+        #video video {
+            width: 500px;
+            height: 500px;
+            display: block;
+            margin: auto;
+        }
+
+        #imagem audio {
+            display: block;
+            margin: auto;
+        }
+
+        #video h2 {
+        margin-bottom: -90px; /* diminui o espaço abaixo do título */
+        }   
+    </style>
+</head>
+
+<body>
+    
+    <form name="cadastro" action="script.php" method="get"></form>
+
+    <div id="imagem">
+        <img src="imagens/gohan.jpg" alt="gohan" title="gohan" width="800" height="500">  
+        <audio src="audios/dbz.mp3" autoplay controls loop>Seu Navegador Nao Suporta Audio</audio>
+        <br>
+    </div>
+    <br>
+    <br>
+    <br>
+    <br>
+    <hr>
+    <div id="video">
+
+        <h2>Batalha Final</h2>
+        <video src="videos/gohanvsmajin.mp4" controls> Video Nao Suportado</video>
+
+    </div>
+    
+</body>
+
+</html>

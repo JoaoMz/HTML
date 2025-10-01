@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Datalist</title>
+</head>
+
+<body>
+    
+    <form name="cadastro" action="script.php" method="get">
+
+        <label for="bebidas">Escolha sua bebida:</label>
+        <input type="text" name="bebida" id="bebida" list="bebidas">
+
+        <datalist id="bebidas">
+            <option value="Coca-Cola"></option>
+            <option value="Guarana"></option>
+            <option value="Pepsi"></option>
+            <option value="Fanta"></option>
+            <option value="Sprite"></option>
+        </datalist>
+        <br>
+
+        <button type="submit" name="Enviar" value="Enviar">Solicitar bebida</button>
+
+
+
+    </form>
+
+
+
+</body>
+
+
+</html>
